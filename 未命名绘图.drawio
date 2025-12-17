@@ -5,15 +5,15 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ymFl1bu_eJO6tvTORgtU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="MQTT Broken" vertex="1">
-          <mxGeometry height="60" width="120" x="358" y="30" as="geometry" />
+          <mxGeometry height="60" width="120" x="358" y="176" as="geometry" />
         </mxCell>
         <mxCell id="ymFl1bu_eJO6tvTORgtU-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="130" />
+              <mxPoint x="350" y="276" />
             </Array>
-            <mxPoint x="310" y="180" as="sourcePoint" />
-            <mxPoint x="400" y="100" as="targetPoint" />
+            <mxPoint x="310" y="326" as="sourcePoint" />
+            <mxPoint x="400" y="246" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-19" connectable="0" parent="ymFl1bu_eJO6tvTORgtU-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="定义点表" vertex="1">
@@ -24,10 +24,10 @@
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="130" />
+              <mxPoint x="490" y="276" />
             </Array>
-            <mxPoint x="530" y="180" as="sourcePoint" />
-            <mxPoint x="440" y="100" as="targetPoint" />
+            <mxPoint x="530" y="326" as="sourcePoint" />
+            <mxPoint x="440" y="246" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-20" connectable="0" parent="Znzr2Yg_egOJnjwg9g-P-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="读写任务" vertex="1">
@@ -36,40 +36,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="点表规则" vertex="1">
-          <mxGeometry height="100" width="120" x="230" y="190" as="geometry" />
+          <mxGeometry height="100" width="120" x="230" y="336" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Job" vertex="1">
-          <mxGeometry height="90" width="120" x="480" y="195" as="geometry" />
+          <mxGeometry height="90" width="120" x="480" y="341" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="130" width="523" x="120" y="170" as="geometry" />
+          <mxGeometry height="130" width="523" x="120" y="316" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="点表&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;规则&lt;/span&gt;&lt;div&gt;统一&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;交换&lt;/span&gt;&lt;/div&gt;&lt;div&gt;服务&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="60" x="120" y="170" as="geometry" />
+          <mxGeometry height="130" width="60" x="120" y="316" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" value="InfluxDB" vertex="1">
-          <mxGeometry height="60" width="80" x="290" y="360" as="geometry" />
+          <mxGeometry height="60" width="80" x="290" y="506" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;" value="MySQL" vertex="1">
-          <mxGeometry height="60" width="80" x="420" y="360" as="geometry" />
+          <mxGeometry height="60" width="80" x="420" y="506" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="95" width="523" x="120" y="344" as="geometry" />
+          <mxGeometry height="95" width="523" x="120" y="490" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=5;rounded=1;curved=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="594" y="391" as="sourcePoint" />
-            <mxPoint x="544" y="391" as="targetPoint" />
+            <mxPoint x="594" y="537" as="sourcePoint" />
+            <mxPoint x="544" y="537" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="数据源&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Data Source&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="95" width="60" x="120" y="344" as="geometry" />
+          <mxGeometry height="95" width="60" x="120" y="490" as="geometry" />
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-16" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="543" y="364" as="sourcePoint" />
-            <mxPoint x="543" y="284" as="targetPoint" />
+            <mxPoint x="543" y="510" as="sourcePoint" />
+            <mxPoint x="543" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-21" connectable="0" parent="Znzr2Yg_egOJnjwg9g-P-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="交换数据" vertex="1">
@@ -79,14 +79,44 @@
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="360" y="243" as="sourcePoint" />
-            <mxPoint x="470" y="243" as="targetPoint" />
+            <mxPoint x="360" y="389" as="sourcePoint" />
+            <mxPoint x="470" y="389" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Znzr2Yg_egOJnjwg9g-P-29" connectable="0" parent="Znzr2Yg_egOJnjwg9g-P-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Data Mapping" vertex="1">
           <mxGeometry relative="1" x="-0.1636" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="80" width="520" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="集成层" vertex="1">
+          <mxGeometry height="80" width="50" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Grafana" vertex="1">
+          <mxGeometry height="50" width="50" x="270" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="NodeRed" vertex="1">
+          <mxGeometry height="50" width="50" x="355" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="优化算法" vertex="1">
+          <mxGeometry height="50" width="50" x="440" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=5;rounded=1;curved=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="86" as="sourcePoint" />
+            <mxPoint x="530" y="86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="420" y="176" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAsIrro0FwZGkedet6Vw-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="nocebase" vertex="1">
+          <mxGeometry height="50" width="50" x="190" y="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
